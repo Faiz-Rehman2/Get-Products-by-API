@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background: #000; */
+}
+
+ h1 {
+    text-align: center;
+    background-color: rgb(227, 228, 215);
+    padding: 9px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+   
+}
+button{
+    
+    padding: 3px;
+    margin: 5px 13px 0 10px ;
+}
+.cart{
+    display: grid;
+    grid-template-columns: 3,1fr;
+    border: 2px solid black;
+    background-color: lightgrey;
+    margin: 2px;
+}
+cardItems{
+    display: flex; 
+    justify-content: center;
+     flex-wrap: wrap;
+}
