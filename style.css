@@ -1,36 +1,81 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    /* background: #000; */
 }
 
- h1 {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eceedc95;
+
+}
+
+h1 {
     text-align: center;
-    background-color: rgb(227, 228, 215);
-    padding: 9px;
+    background-color: #e3e4d7;
+    padding: 10px;
+    margin-bottom: 20px;
 }
-.btn{
-    display: flex;
-    justify-content: center;
-    gap: 5px;
 
-   
+.btn {
+    text-align: center;
+    margin-bottom: 20px;
 }
-button{
-    
-    padding: 3px;
-    margin: 5px 13px 0 10px ;
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #959781;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
 }
-.cart{
-    display: grid;
-    grid-template-columns: 3,1fr;
-    border: 2px solid black;
-    background-color: lightgrey;
-    margin: 2px;
+
+button:hover {
+    background-color: #0056b3;
 }
-cardItems{
-    display: flex; 
+
+.cardItems {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-     flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cardBox {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.cardBox img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cardBox h2,
+.cardBox h3 {
+    margin: 10px 0;
+}
+
+.cardBox button {
+    background-color: #959781;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.cardBox button:hover {
+    background-color: #0056b3;
 }
